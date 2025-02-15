@@ -9,11 +9,11 @@ IBAction과 IBOutlet은 무엇일까요?<br>
 
 ### 참조
 
-[Hacking with Swift: What is an IBOutlet?](https://www.hackingwithswift.com/example-code/xcode/what-is-an-iboutlet)
+[[Hacking with Swift: What is an IBOutlet?]](https://www.hackingwithswift.com/example-code/xcode/what-is-an-iboutlet)
 
-[How to use Swift's @IBAction](https://reintech.io/blog/mastering-swifts-ibaction)
+[[How to use Swift's @IBAction]](https://reintech.io/blog/mastering-swifts-ibaction)
 
-[Apple 공식 문서: awakeFromNib()](https://developer.apple.com/documentation/objectivec/nsobject/1402907-awakefromnib)
+[[Apple 공식 문서: awakeFromNib()]](https://developer.apple.com/documentation/objectivec/nsobject/1402907-awakefromnib)
 
 <br>
 
