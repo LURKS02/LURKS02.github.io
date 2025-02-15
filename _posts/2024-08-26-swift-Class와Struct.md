@@ -18,9 +18,9 @@ categories: swift
 
 #### 참고
 
-https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/
+[[Apple 공식 문서: Structures and Classes]](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
 
-https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes
+[[Apple 공식 문서: Choosing Between Structures and Classes]](https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes)
 
 
 ## Class와 Struct의 공통점
@@ -70,6 +70,12 @@ Apple 문서에서는 기본적으로는 Struct를 사용하라고 안내하고 
 ### Objective-C와의 상호 운용성
 Objective-C와의 상호 운용성이 필요한 경우 클래스를 사용해야 합니다.<br>
 앱 개발 시에 Objevtive-C로 작성된 API 또는 프레임워크를 사용하게 될 수도 있습니다. 가장 대표적인 예시는 UIKit입니다. UIView의 경우 결국에는 NSObject로 Objective-C 기반으로 작성되었기 때문에, 이를 사용하거나 서브클래싱해서 사용하는 경우 Class를 사용할 수 밖에 없는 것입니다.<br>
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/97153eb8-1308-478e-8946-8b798f554e0a" width=600>
+
+<br>
 
 또한 Core Data를 사용할 때 이는 Objective-C 기반의 프레임워크이므로 모델을 선언할 때 class를 사용해줍니다.<br>
 
