@@ -81,21 +81,13 @@ Model은 사용자의 데이터를, View는 사용자가 이해할 수 있는 �
 
 전통적인 Smalltalk의 MVC 개념에서는 모델 객체의 상태가 바뀌었을 때 Observer 패턴을 통해 뷰 객체에게 변경을 알릴 수 있었습니다.<br>
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/02d5b82b-d508-4c7b-9ce5-67e2d12287ce" width=700>
-
-<br>
 
 이때 뷰와 모델이 직접적으로 연결되면 재사용이 어려워지겠죠?<br>
 따라서 Cocoa MVC에서는 컨트롤러가 뷰와 모델 사이의 중재자 역할을 수행하게 됩니다.<br>
 뷰와 모델 객체를 분리시키고, 고도로 재사용할 수 있도록 하기 위한 전략입니다.<br>
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/12a00797-2851-462b-9ece-bbe833945653" width=700>
-
-<br>
 
 따라서 Cocoa 버전의 MVC는 위와 같은 형태로 구성되었습니다.<br>
 즉, 컨트롤러 객체가 모델과 뷰 사이의 데이터 흐름을 양방향으로 중재하게 됩니다.<br>
@@ -112,11 +104,7 @@ Apple에서는 MVC의 각 역할을 병합할 수 있으며, 객체가 컨트롤
 ### MVP 패턴
 MVP 패턴은 Massive View Controller 문제를 해결하기 위해 등장한 아키텍처 패턴 중 하나입니다. <br>
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/7e64e52c-26e5-4d5b-8f0b-649b3184014b" width=700>
-
-<br>
 
 MVP 패턴을 살펴보면 위에서 봤던 MVC와 동일한 형태를 가지고 있는 것을 확인할 수 있습니다. 무엇이 바뀐 걸까요?<br>
 기존의 UIViewController는 이제 View 영역에 속하게 되었고, 별도의 Presenter가 존재합니다.<br>
@@ -191,11 +179,7 @@ MyView 프로토콜을 정의해뒀기 때문에 MyView를 따르는 뷰에서�
 
 ### MVVM 패턴
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/4ce178df-a184-4b2f-90b1-3785e63cdb85" width=700>
-
-<br>
 
 MVVM 패턴의 View와 Model 개념은 이전과 동일합니다.<br>
 다만 Presenter에서 ViewModel로 교체가 되었네요!<br>
@@ -219,11 +203,7 @@ Side Effect(부수 효과)란, 외부 상태에 영향을 주거나 외부 상�
 위와 같이 상태 관리의 어려움을 해결하기 위해 MVI 패턴이 등장하였습니다!<br>
 MVI에서는 이를 단방향 데이터 흐름과 단일 상태 관리로 해결합니다.<br>
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/6d67cd46-6ea6-47fa-bc85-76bbbc2d427b" width=700>
-
-<br>
 
 한 방향으로 로직이 흘러가는 모습이 보이시나요?<br>
 
@@ -308,20 +288,12 @@ final class CounterManager {
 
 처음에는 CounterManager가 0일 것이고, CounterManager의 count를 10으로 바꾸면 당연히 10이 되겠죠?<br>
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/400b8dda-9b8f-4a3a-9a14-9dcd4c1cd33b" width=700>
-
-<br>
 
 이렇게 잘 작동하는 것을 확인할 수 있습니다!!<br>
 잘... 작동...?<br>
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/68dcab2e-baf5-4719-acfc-af3a214c5e04" width=700>
-
-<br>
 
 동일한 코드를 가지고 다시 테스트를 돌렸는데, 이번에는 결과가 다릅니다. <br>
 테스트를 실행할 때마다 결과는 계속 달라지게 됩니다.<br>
@@ -338,11 +310,7 @@ final class CounterManager {
 
 이번에는 파사드 패턴에 대해서 알아보겠습니다.<br>
 
-<br>
-
 <img src="https://github.com/user-attachments/assets/95de75c3-ab33-4dae-830f-11555a5f5fd6" width=700>
-
-<br>
 
 파사드 패턴은 복잡한 서브시스템들의 인터페이스를 하나로 감싸서, 단순한 인터페이스만 외부에 제공하는 디자인 패턴입니다. <br>
 
@@ -686,11 +654,7 @@ Composite 패턴은 객체를 트리 구조로 구성할 수 있도록 도와주
 
 UIKit에서는 뷰의 계층 구조를 예시로 들 수 있겠네요!<br>
 
-<br>
-
-<img src="https://github.com/user-attachments/assets/ac94d5ba-e499-43ea-903e-af61bb8b0da3" width=700>
-
-<br>
+<img src="https://github.com/user-attachments/assets/ac94d5ba-e499-43ea-903e-af61bb8b0da3" width=400>
 
 UIWindow의 Content View 안에 다양한 서브 뷰가 추가되고... 다른 서브 뷰를 추가적으로 포함하는 UIView, UIStackView가 있을 수도 있고, 말단에는 UILabel이나 UIImageView 같은 것들이 존재할 수 있겠죠!<br>
 하지만 이들은 모두 UIView로 취급되며, 서브 뷰를 많이 가지고 있는 뷰도 UIView일 뿐 입니다.<br>
