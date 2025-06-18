@@ -154,6 +154,7 @@ let verticalTilt = atan2(flippedGravity.y, flippedGravity.z) * 180 / .pi
 
 이렇게 완성된 뷰를 보면..?<br>
 
+<br>
 
 <video width="50%" controls>
   <source src="/videos/shiny_pokemon_card.mp4" type="video/mp4">
