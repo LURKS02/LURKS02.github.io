@@ -11,9 +11,7 @@ categories: swift
 마치 사용자가 인터랙션하는 대로 반응하는 것처럼 말이죠..! 🙂<br>
 
 그리고 최근에 한 영상을 보게 되었는데요..<br>
-바로 코딩 애플 선생님의 포켓몬 카드 뷰 만드는 영상입니다! <br>
-
-https://www.youtube.com/watch?v=YDCCauu4lIk
+바로 코딩 애플 선생님의 [포켓몬 카드 뷰 만드는 영상](https://www.youtube.com/watch?v=YDCCauu4lIk)입니다! <br>
 
 포켓몬 카드는 이리저리 움직일 때 홀로그램처럼 반짝이는 효과가 있는데요..<br>
 이걸 웹에서 구현하여 마우스 포인터에 따라 카드가 회전하면서 빛나는 효과를 주고 있습니다.<br>
@@ -100,8 +98,7 @@ x에 대한 회전행렬 Rx, y에 대한 회전행렬 Ry, z에 대한 회전행�
 CMAttitude에서는 quaternion 값도 제공하고 있습니다.<br>
 
 정확하게는 q = w + xi + yj + zk 라고 하는데... <br>
-대강 회전에 따라 값이 다음과 같이 변동한다고 합니다.<br>
-[출처](https://xoft.tistory.com/110)
+대강 회전에 따라 값이 다음과 같이 변동한다고 합니다. [출처](https://xoft.tistory.com/110) <br>
 
 ![img (5)](https://github.com/user-attachments/assets/663729ab-c0f6-4ee1-a5c3-547fdb1662bb)
 
