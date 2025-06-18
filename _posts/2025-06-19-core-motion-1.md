@@ -156,7 +156,7 @@ let verticalTilt = atan2(flippedGravity.y, flippedGravity.z) * 180 / .pi
 
 
 <video width="100%" controls>
-  <source src="assets/video/shiny_pokemon_card.mp4" type="video/mp4">
+  <source src="/videos/shiny_pokemon_card.mp4" type="video/mp4">
 </video>
 
 
