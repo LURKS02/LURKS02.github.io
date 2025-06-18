@@ -313,6 +313,7 @@ include:
   - _routes.json
   - .well-known
   - LICENSE.md
+  - assets
 
 
 # Plugins
