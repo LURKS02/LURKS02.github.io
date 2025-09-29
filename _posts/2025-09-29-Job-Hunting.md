@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '취준 생활 회고 - VCNC(타다) / 토스 next 지원 후기'
+title: '취준 생활 회고 - VCNC(타다) / 2025 토스 next 지원 후기'
 categories: etc
 published: true
 ---
