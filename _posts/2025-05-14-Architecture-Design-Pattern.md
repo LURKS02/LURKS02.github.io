@@ -2,7 +2,7 @@
 layout: post
 title: 'iOS 아키텍처와 디자인 패턴'
 categories: swift
-published: false
+published: true
 ---
 
 아키텍처 패턴과 디자인 패턴은 모두 소프트웨어를 더 유지보수하기 쉽고 재사용 가능한 형태로 만들기 위한 방법론입니다.<br>

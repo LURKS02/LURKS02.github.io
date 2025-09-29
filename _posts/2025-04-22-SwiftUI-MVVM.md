@@ -2,7 +2,7 @@
 layout: post
 title: 'SwiftUI와 상태 관리 그리고 MVVM/MV'
 categories: swift
-published: false
+published: true
 ---
 
 <br>

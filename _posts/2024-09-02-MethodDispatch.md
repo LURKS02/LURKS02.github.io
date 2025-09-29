@@ -2,7 +2,7 @@
 layout: post
 title: '메서드 디스패치와 성능'
 categories: swift
-published: false
+published: true
 ---
 
 Swift를 배우다 보면 접하게 되는 메서드 디스패치에 대해 알아보도록 하겠습니다.<br>
